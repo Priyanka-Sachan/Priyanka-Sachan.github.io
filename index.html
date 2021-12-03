@@ -12,14 +12,12 @@
 </head>
 
 <body>
-    <!-- partial:index.partial.html -->
     <div class="outer">
         <a href="#"><i class="fa fa-arrow-circle-up" id="arrow" aria-hidden="true"></i></a>
+
         <div class="inner">
-            <!--
-		HEADER
-    SECTION
--->
+
+            <!-- NAVIGATION -->
             <header>
                 <div class="container-fluid clearfix">
                     <div class="row">
@@ -51,11 +49,7 @@
                 </div>
             </header>
 
-            <!--
-		INTRODUCTION
-		SECTION
--->
-
+            <!-- INTRODUCTION -->
             <main id="main">
                 <div class="container">
                     <div class="row">
@@ -65,6 +59,8 @@
                     </div>
                 </div>
             </main>
+
+            <!-- SKILLS -->
             <section class="skills-sec">
                 <div class="container-fluid">
                     <div class="row">
@@ -77,8 +73,8 @@
                                 <img class="img-responsive skill" src="./icon.png" alt="css icon" />
                                 <img class="img-responsive skill toL" src="./icon.png" alt="html icon" />
                                 <img class="img-responsive skill toR" src="./icon.png" alt="bootstrap icon" />
-                                <img class="img-responsive skill" src="./icon.png" alt="jquery icon" class="img-responsive skill" />
-                                <img class="img-responsive skill toL" src="./icon.png" alt="git icon" class="img-responsive skill toL" />
+                                <img class="img-responsive skill" src="./icon.png" alt="jquery icon" />
+                                <img class="img-responsive skill toL" src="./icon.png" alt="git icon" />
                                 <img class="img-responsive skill toR" src="./icon.png" alt="sass icon" />
                                 <img class="img-responsive skill" src="./icon.png" alt="gulp icon" />
                                 <img class="img-responsive skill toL" src="./icon.png" alt="react icon" />
@@ -88,11 +84,7 @@
                 </div>
             </section>
 
-            <!--
-		PORTFOLIO
-    SECTION
--->
-
+            <!-- PROJECTS PORTFOLIO -->
             <section class="portfolio-sec">
                 <div class="container-fluid">
                     <div class="row">
@@ -124,33 +116,94 @@
                     </div>
                 </div>
             </section>
-
         </div>
-        <!--
-		FOOTER
-    SECTION
--->
-        <footer>
+
+        <!-- CONTACT -->
+        <section class="contact-sec">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-10 col-xs-offset-1">
-                        <h2>Get in Touch</h2>
+                    <div class="col-md-12 text-center">
+                        <div class="contact_title wow fadeInUp animated">
+                            <h1>Contact</h1>
+                            <p>On the off chance that you might want to connect with me, be it for some business or innovation, or to simply say hello, don't hesitate to contact me.</p>
+                        </div>
                     </div>
-                    <div class="col-xs-12">
-                        <div id="contacts">
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 wow fadeInLeft animated">
+                        <div class="single_contact_info">
+                            <p>Email Me</p>
+                            <p>priyankasachanb9@gmail.com</p>
+                        </div>
+                        <div class="single_contact_info">
+                            <p>Address</p>
+                            <p>C.V. Raman Hostel, IIT Patna, India</p>
+                        </div>
+                    </div>
+                    <div class="col-md-9 wow fadeInRight animated">
+                        <form class="contact-form" action="">
                             <div class="row">
-                                <div class="col-lg-3 col-sm-6">
-                                    <a class="contact-link " href="#"><i class="fa fa-github"></i></a>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" id="name" placeholder="Name">
+                                    <input type="email" class="form-control" id="email" placeholder="Email">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
                                 </div>
-                                <div class="col-lg-3 col-sm-6">
-                                    <a class="contact-link " href="#"><i class="fa fa-github"></i></a>
+                                <div class="col-md-6">
+                                    <textarea class="form-control" id="message" rows="25" cols="10" placeholder="  Message Texts..."></textarea>
+                                    <button type="button" class="btn btn-default submit-btn form_submit">SEND
+                                        MESSAGE</button>
                                 </div>
-                                <div class="col-lg-3 col-sm-6">
-                                    <a class="contact-link " href="#"><i class="fa fa-github"></i></a>
-                                </div>
-                                <div class="col-lg-3 col-sm-6">
-                                    <a class="contact-link " href="#"><i class="fa fa-github"></i></a>
-                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="work-with wow fadeInUp animated">
+                            <h3>looking forward to hearing from you!</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <div class="footer_logo wow fadeInUp animated">
+                                <img src="icon.png" alt="" width="100px" height="100px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center wow fadeInUp animated">
+                            <div class="social">
+                                <h2>Follow Me on Here</h2>
+                                <ul class="icon_list" id="contacts">
+                                    <li><a class="contact-link" href=""><i class="fa fa-facebook"></i></a></li>
+                                    <li><a class="contact-link" href=""><i class="fa fa-twitter"></i></a></li>
+                                    <li><a class="contact-link" href=""><i class="fa fa-github"></i></a></li>
+                                    <li><a class="contact-link" href=""><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a class="contact-link" href=""><i class="fa fa-dribbble"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <div class="copyright_text wow fadeInUp animated">
+                                <p>Made with love with lots of tea!</p>
                             </div>
                         </div>
                     </div>
@@ -158,8 +211,8 @@
             </div>
         </footer>
 
+
     </div>
-    <!-- partial -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js'></script>
