@@ -1,4 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Karma&display=swap');
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+ ::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #F06060;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -27,6 +39,7 @@ body {
     position: relative;
     font-family: 'Karma', serif;
     font: 1em/1.6;
+    overflow: overlay;
 }
 
 p {
