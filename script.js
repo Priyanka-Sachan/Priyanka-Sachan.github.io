@@ -35,10 +35,6 @@ $(document.body).ready(function() {
         w = $(window),
         fz;
 
-    portfolioBox.css({
-        'marginBottom': $('footer').height()
-    })
-
     TweenMax.from(hi, 5, {
         y: 140,
         opacity: 0,
@@ -63,12 +59,6 @@ $(document.body).ready(function() {
                 width: 0
             });
         })
-
-    w.resize(function() {
-        portfolioBox.css({
-            'marginBottom': $('footer').height()
-        })
-    })
 
     $('#portfolio').waypoint(function() {
         // $('footer').css({
