@@ -3,6 +3,22 @@ body {
     letter-spacing: 0.05em;
 }
 
+#front-caption {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: white;
+    background-color: transparent;
+}
+
+#front-caption .title {
+    color: white;
+}
+
+#front-caption .text {
+    color: white;
+}
+
 .btn {
     display: inline-block;
     padding: 13px 20px;
@@ -105,10 +121,6 @@ body {
     opacity: 1;
 }
 
-.slideshow .slide-content {
-    margin: 0;
-}
-
 .slideshow .showcase {
     background-color: darkgoldenrod;
     height: 100%;
@@ -157,10 +169,12 @@ body {
     height: 100%;
     z-index: 2;
     color: #000;
+    background-color: #fff;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 
 .slideshow .slide .title {
