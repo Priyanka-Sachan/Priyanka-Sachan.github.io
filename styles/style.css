@@ -87,14 +87,17 @@ body {
 #front-slide .text,
 #slide-1 .text {
     color: white;
+    align-self: center;
 }
 
 .slideshow .showcase {
     height: 100%;
+    display: flex;
 }
 
 .slideshow .showcase img {
     height: 100%;
+    margin: auto;
 }
 
 #slide-1 .showcase {
@@ -116,6 +119,7 @@ body {
 .slideshow .slide .caption {
     padding: 0 16px;
     background-color: white;
+    align-self: center;
 }
 
 .slideshow .slide .image-container {
@@ -158,9 +162,9 @@ body {
     color: #000;
     background-color: #fff;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
     margin: 0;
 }
 
