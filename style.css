@@ -266,6 +266,43 @@ body {
     transition: left 0.2s ease;
 }
 
+.contact-link {
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 200%;
+    color: #333;
+    text-transform: uppercase;
+    transition: all 0.25s ease-in-out;
+}
+
+ul#contacts {
+    list-style: none;
+    text-align: center;
+}
+
+ul#contacts li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ul#contacts li a {
+    display: inline-block;
+    color: #333;
+    text-align: center;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 64px;
+    transition: all 0.5s;
+}
+
+ul#contacts li a:hover {
+    color: #000;
+    border-color: #000;
+}
+
 ::-webkit-scrollbar {
     display: none;
 }
