@@ -93,12 +93,16 @@ body {
     height: 100%;
 }
 
+.slideshow .showcase img {
+    height: 100%;
+}
+
 #slide-1 .showcase {
     background-color: #333;
 }
 
 #slide-2 .showcase {
-    background-color: crimson;
+    background-color: #F9A826;
 }
 
 #slide-3 .showcase {
