@@ -1,33 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
 body {
-    font: 14px/2 "Open sans", sans-serif;
+    font: 16px/2 'Jost', sans-serif;
     letter-spacing: 0.05em;
-}
-
-#front-caption {
-    position: absolute;
-    top: 30%;
-    left: 30%;
-    color: white;
-    background-color: transparent;
-}
-
-#front-caption .title {
-    color: white;
-}
-
-#front-caption .text {
-    color: white;
 }
 
 .btn {
     display: inline-block;
     padding: 13px 20px;
-    color: #333;
+    background-color: #333;
+    color: #fff;
     text-decoration: none;
     position: relative;
-    background: transparent;
-    border: 1px solid #e1e1e1;
-    font: 12px/1.2 "Oswald", sans-serif;
+    border: 1px solid #333;
+    font: 12px/1.2 'Inconsolata', monospace;
     letter-spacing: 0.4em;
     text-align: center;
     text-indent: 2px;
@@ -35,44 +20,9 @@ body {
     transition: color 0.1s linear 0.05s;
 }
 
-.btn::before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    background: #e1e1e1;
-    z-index: 1;
-    opacity: 0;
-    transition: height 0.2s ease, top 0.2s ease, opacity 0s linear 0.2s;
-}
-
-.btn::after {
-    transition: border 0.1s linear 0.05s;
-}
-
-.btn .btn-inner {
-    position: relative;
-    z-index: 2;
-}
-
 .btn:hover {
-    color: #373737;
-    transition: color 0.1s linear 0s;
-}
-
-.btn:hover::before {
-    top: 0;
-    height: 100%;
-    opacity: 1;
-    transition: height 0.2s ease, top 0.2s ease, opacity 0s linear 0s;
-}
-
-.btn:hover::after {
-    border-color: #373737;
-    transition: border 0.1s linear 0s;
+    background-color: white;
+    color: #333;
 }
 
 .slideshow {
@@ -121,9 +71,42 @@ body {
     opacity: 1;
 }
 
+#front-slide .caption {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    color: white;
+    background-color: transparent;
+}
+
+#front-slide .title {
+    color: white;
+}
+
+#front-slide .text,
+#slide-1 .text {
+    color: white;
+}
+
 .slideshow .showcase {
-    background-color: darkgoldenrod;
     height: 100%;
+}
+
+#slide-1 .showcase {
+    background-color: #333;
+}
+
+#slide-2 .showcase {
+    background-color: crimson;
+}
+
+#slide-3 .showcase {
+    background-color: darkkhaki;
+}
+
+#slide-4 .showcase {
+    background-color: cadetblue;
 }
 
 .slideshow .slide .caption {
@@ -180,25 +163,15 @@ body {
 .slideshow .slide .title {
     margin: 0 auto 15px;
     max-width: 1000px;
-    font: 300 50px/1.2 "Oswald", sans-serif;
-    letter-spacing: 0.35em;
+    font: 300 60px/1.2 'Inconsolata', monospace;
     text-transform: uppercase;
 }
 
 .slideshow .slide .text {
     margin: 0 auto;
     max-width: 1000px;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.4;
-}
-
-.slideshow .slide .btn {
-    margin: 15px 0 0;
-    border-color: #000;
-}
-
-.slideshow .slide .btn::before {
-    background: #000;
 }
 
 .slideshow .pagination {
@@ -265,12 +238,20 @@ body {
     left: 30px;
 }
 
+.slideshow .arrows .prev .svg {
+    fill: #333;
+}
+
 .slideshow .arrows .prev:hover .svg {
     left: -10px;
 }
 
 .slideshow .arrows .next {
     right: 30px;
+}
+
+.slideshow .arrows .next .svg {
+    fill: #fff;
 }
 
 .slideshow .arrows .next:hover .svg {
@@ -282,7 +263,6 @@ body {
     left: 0;
     width: 14px;
     height: 26px;
-    fill: #333;
     transition: left 0.2s ease;
 }
 
