@@ -175,8 +175,12 @@ body {
     text-transform: uppercase;
 }
 
+.slideshow .slide .tags {
+    justify-content: center;
+}
+
 .slideshow .slide .text {
-    margin: 0 auto;
+    margin: 4px auto;
     max-width: 1000px;
     font-size: 20px;
     line-height: 1.4;
