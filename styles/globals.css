@@ -4,14 +4,14 @@
 
 @font-face {
   font-family: 'EncodeSans';
-  src: url('../assets/fonts/EncodeSansSemiCondensed-Regular.ttf');
+  src: url('../public/fonts/EncodeSansSemiCondensed-Regular.ttf');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Jost';
-  src: url('../assets/fonts/Jost-Regular.ttf');
+  src: url('../public/fonts/Jost-Regular.ttf');
   font-weight: 400;
   font-style: normal;
 }

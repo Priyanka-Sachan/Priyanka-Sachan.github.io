@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <section className="container ml-32">
-      <h3 className="text-2xl">01. About Me</h3>
+      <h2 className="text-2xl">01. About Me</h2>
       <p>
         My name is Priyanka Sachan and I enjoy creating things that live on the
         internet.{' '}
