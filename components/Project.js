@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function Project(props) {
   const project = props.project
   return (
-    <section className="container my-8">
+    <section className="container m-4 p-4">
       <h6 className="text-sm uppercase text-slate-600">Featured Project</h6>
       <h3 className="text-xl">{project.name}</h3>
       {/* hover:grid-cols-1 */}
