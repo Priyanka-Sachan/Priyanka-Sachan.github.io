@@ -3,6 +3,7 @@ import About from '../components/About'
 import Hero from '../components/Hero'
 import Projects from '../components/Projects'
 import OtherProjects from '../components/OtherProjects'
+import Contact from '../components/Contact'
 
 export default function Home() {
   return (
@@ -15,15 +16,12 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="container">
+      <div className="container mx-auto p-8">
         <Hero />
-        <div className="w-screen h-40 bg-emerald-500"></div>
         <About />
-        <div className="w-screen h-40 bg-emerald-500"></div>
-        <Projects/>
-        <div className="w-screen h-40 bg-emerald-500"></div>
-        <OtherProjects/>
-        <div className="w-screen h-40 bg-emerald-500"></div>
+        <Projects />
+        <OtherProjects />
+        <Contact />
       </div>
     </div>
   )
