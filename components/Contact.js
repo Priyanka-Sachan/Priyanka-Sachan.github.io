@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function Contact() {
   return (
-    <section className="text-center mb-48">
+    <section id="contact" className="text-center mb-48">
       <h2 className="text-2xl">04. What's Next?</h2>
       <h1 className="text-4xl">Get in Touch</h1>
       <p>
