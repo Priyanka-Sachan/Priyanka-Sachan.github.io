@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { otherProjects } from '../pages/projects-data'
+import { otherProjects } from '../public/data.json'
 import OtherProject from './OtherProject'
 
 export default function OtherProjects() {

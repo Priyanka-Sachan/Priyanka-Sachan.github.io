@@ -1,0 +1,154 @@
+{
+  "socialLinks": {
+    "email": "",
+    "resume": "",
+    "github": "",
+    "facebook": "",
+    "twitter": "",
+    "instagram": ""
+  },
+  "featuredProjects": [
+    {
+      "id": 1,
+      "name": "Bookish",
+      "imageUrl": "/images/bookish.gif",
+      "description": "A cross-platform Flutter application for book lovers, powered by ebooks in public domain. Users can download, read, review and comment on ebooks under public domain.",
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "Firebase"
+      ],
+      "githubUrl": "https: //github.com/Priyanka-Sachan/Bookish",
+      "demoUrl": "",
+      "blogUrl": ""
+    },
+    {
+      "id": 2,
+      "name": "Mood Board",
+      "imageUrl": "/images/mood-board.png",
+      "description": "Devil lies in details.We help you realise these details open-source using a chrome extension. Mood Board is a chrome extension that is built on to manage searchable multimedia content on web centring around a topic of your choice.",
+      "technologies": [
+        "Chrome Extension",
+        "MV3",
+        "JavaScript"
+      ],
+      "githubUrl": "https: //github.com/Priyanka-Sachan/Mood-Board",
+      "demoUrl": "",
+      "blogUrl": ""
+    },
+    {
+      "id": 3,
+      "name": "NFT Unboxed",
+      "imageUrl": "/images/nft-unboxed.png",
+      "description": "Built an NFT Marketplace where users can create, sell and buy ERC721 compatible NFTs on Ethereum chain without platform fees.",
+      "technologies": [
+        "Solidity",
+        "Next.js",
+        "Moralis",
+        "Chainlink Oracle"
+      ],
+      "githubUrl": "https: //github.com/Priyanka-Sachan/NFT-unboxed-app",
+      "demoUrl": "",
+      "blogUrl": ""
+    },
+    {
+      "id": 4,
+      "name": "PenCast",
+      "imageUrl": "/images/pencast.png",
+      "description": "PenCast is an android appplication to bring version control to authors on the go. It helps authors write, shape and share their ideas with each other.",
+      "technologies": [
+        "Android",
+        "Kotlin",
+        "Firebase"
+      ],
+      "githubUrl": "https: //github.com/Priyanka-Sachan/PenCast",
+      "demoUrl": "",
+      "blogUrl": ""
+    }
+  ],
+  "otherProjects": [
+    {
+      "id": 1,
+      "name": "Web-to-pdf",
+      "imageUrl": "",
+      "description": "Web app to convert html from any cross domain site to readable content (by Mozilla Readability) and then to PDF",
+      "technologies": [
+        "Next.js",
+        "Rest API"
+      ],
+      "githubUrl": "https://github.com/Priyanka-Sachan/web-to-pdf",
+      "demoUrl": "web-to-pdf.vercel.app",
+      "blogUrl": ""
+    },
+    {
+      "id": 2,
+      "name": "Next-X-Feed",
+      "imageUrl": "",
+      "description": "A blogging site with rich text-editor support, tagging system and recommendations for perfect reads.",
+      "technologies": [
+        "Next.js",
+        "Rest API",
+        "MongoDB"
+      ],
+      "githubUrl": "https://github.com/Priyanka-Sachan/next-x-feed",
+      "demoUrl": "next-x-feed.vercel.app",
+      "blogUrl": ""
+    },
+    {
+      "id": 3,
+      "name": "Smart Lottery App",
+      "imageUrl": "",
+      "description": "A web app for decentralized, trustless lottery system powered by Chainlink Oracles. Every lottery is certainly random.",
+      "technologies": [
+        "Solidity",
+        "Next.js",
+        "Chainlink Oracle"
+      ],
+      "githubUrl": "https://github.com/Priyanka-Sachan/smart-lottery-app",
+      "demoUrl": "smart-lottery-app.vercel.app",
+      "blogUrl": ""
+    },
+    {
+      "id": 4,
+      "name": "Momentum",
+      "imageUrl": "",
+      "description": "A mobile app to effective management of time and work through intelligent project completion and speed statistics to better gauge our momentum and be more productive",
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "Firebase"
+      ],
+      "githubUrl": "https://github.com/Priyanka-Sachan/momentum",
+      "demoUrl": "",
+      "blogUrl": ""
+    },
+    {
+      "id": 5,
+      "name": "Task Tribe",
+      "imageUrl": "",
+      "description": "A desktop to-do list with tribal vibes. Best part is the ability to track project status with multiple values.",
+      "technologies": [
+        "Electron.js",
+        "JavaScript"
+      ],
+      "githubUrl": "https://github.com/Priyanka-Sachan/Task-Tribe",
+      "demoUrl": "",
+      "blogUrl": ""
+    },
+    {
+      "id": 6,
+      "name": "Complaint Identification using Federated Learning",
+      "imageUrl": "",
+      "description": "Trained twitter dataset on transformer-XL based XLNet model to identify complaints and achieved better performance with Federated Learning algorithms to ensure data security",
+      "technologies": [
+        "Python",
+        "PyTorch",
+        "XLNet"
+      ],
+      "githubUrl": "https://github.com/Priyanka-Sachan/Complaint-Identification-using-FL",
+      "demoUrl": "",
+      "blogUrl": ""
+    }
+  ],
+  "allProjects": []
+}

@@ -1,4 +1,4 @@
-import { featuredProjects } from '../pages/projects-data'
+import {featuredProjects} from '../public/data.json'
 import Project from './Project'
 
 export default function Projects() {

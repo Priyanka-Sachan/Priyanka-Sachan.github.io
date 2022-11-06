@@ -9,10 +9,10 @@ export default function OtherProject(props) {
         <div>
           <div className="flex flex-row justify-between items-center">
             <Image
-              className="inline m-1"
-              src="/blob-haikei.svg"
-              width="64"
-              height="64"
+              className="inline m-1 "
+              src="/svg/folder.svg"
+              width="48"
+              height="48"
             />
             <div>
               <Link href={project.githubUrl}>

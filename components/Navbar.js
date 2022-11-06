@@ -42,7 +42,7 @@ export default function Navbar() {
               <Link>
                 <a
                   href="#about-me"
-                  className="block py-2 px-3 text-gray-700 dark:text-white"
+                  className="block p-2 text-gray-700 dark:text-white"
                   aria-current="page"
                 >
                   About me
@@ -53,7 +53,7 @@ export default function Navbar() {
               <Link>
                 <a
                   href="#projects"
-                  className="block py-2 px-3 text-gray-700 dark:text-white"
+                  className="block p-2 text-gray-700 dark:text-white"
                 >
                   Projects
                 </a>
@@ -63,7 +63,7 @@ export default function Navbar() {
               <Link>
                 <a
                   href="#contact"
-                  className="block py-2 px-3 text-gray-700 dark:text-white"
+                  className="block p-2 text-gray-700 dark:text-white"
                 >
                   Contact
                 </a>
@@ -71,10 +71,7 @@ export default function Navbar() {
             </li>
             <li>
               <Link>
-                <a
-                  href=""
-                  className="block py-2 px-3 text-gray-700 dark:text-white"
-                >
+                <a href="" className="block p-2 text-gray-700 dark:text-white">
                   Resume
                 </a>
               </Link>
