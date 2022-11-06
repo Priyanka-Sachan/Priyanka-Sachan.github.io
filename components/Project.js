@@ -18,16 +18,18 @@ export default function Project(props) {
         </Link>
       </div>
       {/* hover:grid-cols-1 */}
-      <div className="grid grid-cols-1 md:grid-cols-2 hover:grid-cols-1">
+      <div className="grid grid-cols-1 md:grid-cols-2 items-end gap-2">
         <div>
           <img src={project.imageUrl} />
         </div>
         <div>
-          <p>{project.description}</p>
-          <div>
+          <p className="drop-shadow-sm hover:drop-shadow-md bg-[#dfd3c3] p-2 rounded-r-lg rounded-bl-lg rounded-tl-none md:rounded-tl-lg md:rounded-bl-none">
+            {project.description}
+          </p>
+          <div className='my-2'>
             {project.technologies.map((tag) => (
               <span
-                className="bg-gray-100 text-gray-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300"
+                className="bg-gray-100 text-gray-800 text-xs font-semibold mr-2 my-1 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300"
                 key={tag}
               >
                 {tag}

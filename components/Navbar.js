@@ -1,5 +1,6 @@
 import { useRef } from 'react'
 import Link from './Link'
+import { socialLinks } from '../public/data.json'
 
 export default function Navbar() {
   const navBarMenu = useRef(null)
@@ -71,7 +72,12 @@ export default function Navbar() {
             </li>
             <li>
               <Link>
-                <a href="" className="block p-2 text-gray-700 dark:text-white">
+                <a
+                  href={socialLinks.resume}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block p-2 text-gray-700 dark:text-white"
+                >
                   Resume
                 </a>
               </Link>

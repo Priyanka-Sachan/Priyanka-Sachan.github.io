@@ -1,11 +1,13 @@
 {
   "socialLinks": {
-    "email": "",
-    "resume": "",
-    "github": "",
+    "email": "priyankasachanb9@gmail.com",
+    "resume": "https://drive.google.com/file/d/1A7nNvFhLcZuD4m0f5zv0s4OVboG0YUtE/view?usp=sharing",
+    "github": "https://github.com/Priyanka-Sachan/",
     "facebook": "",
     "twitter": "",
-    "instagram": ""
+    "instagram": "",
+    "codepen": "https://codepen.io/Ani-Sachan",
+    "linkedin":""
   },
   "featuredProjects": [
     {
@@ -26,7 +28,7 @@
       "id": 2,
       "name": "Mood Board",
       "imageUrl": "/images/mood-board.png",
-      "description": "Devil lies in details.We help you realise these details open-source using a chrome extension. Mood Board is a chrome extension that is built on to manage searchable multimedia content on web centring around a topic of your choice.",
+      "description": "Devil lies in details. Mood Board is a chrome extension that is built on to manage searchable multimedia content on web centring around a topic of your choice.",
       "technologies": [
         "Chrome Extension",
         "MV3",
@@ -139,7 +141,7 @@
       "id": 6,
       "name": "Complaint Identification using Federated Learning",
       "imageUrl": "",
-      "description": "Trained twitter dataset on transformer-XL based XLNet model to identify complaints and achieved better performance with Federated Learning algorithms to ensure data security",
+      "description": "A transformer-XL based XLNet model trained on twitter dataset to identify complaints and achieved better performance with Federated Learning algorithms to ensure data security",
       "technologies": [
         "Python",
         "PyTorch",
