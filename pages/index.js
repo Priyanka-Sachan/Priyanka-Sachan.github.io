@@ -6,6 +6,7 @@ import OtherProjects from '../components/OtherProjects'
 import Contact from '../components/Contact'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import SocialBar from '../components/SocialBar'
 
 export default function Home() {
   return (
@@ -18,14 +19,16 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar/>
+      <Navbar />
+
       <div id="hello" className="container mx-auto p-8">
         <Hero />
         <About />
         <Projects />
         <OtherProjects />
         <Contact />
-        <Footer/>
+        <SocialBar />
+        <Footer />
       </div>
     </div>
   )
