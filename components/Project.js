@@ -26,7 +26,7 @@ export default function Project(props) {
           <p className="drop-shadow-sm hover:drop-shadow-md bg-[#dfd3c3] p-2 rounded-r-lg rounded-bl-lg rounded-tl-none md:rounded-tl-lg md:rounded-bl-none">
             {project.description}
           </p>
-          <div className='my-2'>
+          <div className="my-2">
             {project.technologies.map((tag) => (
               <span
                 className="bg-gray-100 text-gray-800 text-xs font-semibold mr-2 my-1 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300"
@@ -37,22 +37,22 @@ export default function Project(props) {
             ))}
           </div>
           <div>
-            <Link href={project.githubUrl}>
+            <a href={project.githubUrl}>
               <Image
                 className="inline m-1"
                 src="/svg/github.svg"
                 width="24"
                 height="24"
               />
-            </Link>
-            <Link href={project.demoUrl}>
+            </a>
+            <a href={project.demoUrl}>
               <Image
                 className="inline m-1"
                 src="/svg/external-link.svg"
                 width="24"
                 height="24"
               />
-            </Link>
+            </a>
           </div>
         </div>
       </div>

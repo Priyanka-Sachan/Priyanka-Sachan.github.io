@@ -15,22 +15,22 @@ export default function OtherProject(props) {
               height="48"
             />
             <div>
-              <Link href={project.githubUrl}>
+              <a href={project.githubUrl}>
                 <Image
                   className="inline m-1"
                   src="/svg/github.svg"
                   width="24"
                   height="24"
                 />
-              </Link>
-              <Link href={project.demoUrl}>
+              </a>
+              <a href={project.demoUrl}>
                 <Image
                   className="inline m-1"
                   src="/svg/external-link.svg"
                   width="24"
                   height="24"
                 />
-              </Link>
+              </a>
             </div>
           </div>
           <h3 className="text-xl inline pr-2">{project.name}</h3>
@@ -38,7 +38,7 @@ export default function OtherProject(props) {
             <img src="/svg/info.svg" className="inline w-5 align-sub" />
           </Link>
 
-          <p className='text-md py-2'>{project.description}</p>
+          <p className="text-md py-2">{project.description}</p>
         </div>
         <div className="flex flex-wrap">
           {project.technologies.map((tag) => (
