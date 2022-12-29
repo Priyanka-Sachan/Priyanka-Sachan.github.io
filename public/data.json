@@ -7,7 +7,8 @@
     "twitter": "https://twitter.com/randomizer_in",
     "instagram": "https://www.instagram.com/randomizer.in/",
     "codepen": "https://codepen.io/priyanka-sachan-in",
-    "linkedin": "https://www.linkedin.com/in/priyanka-sachan-92a721194/"
+    "linkedin": "https://www.linkedin.com/in/priyanka-sachan-92a721194/",
+    "blog":"https://console-logs.vercel.app/"
   },
   "featuredProjects": [
     {
@@ -22,7 +23,7 @@
       ],
       "githubUrl": "https://github.com/Priyanka-Sachan/Bookish",
       "demoUrl": "",
-      "blogUrl": ""
+      "blogUrl": "https://console-logs.vercel.app/blog/bookish"
     },
     {
       "id": 2,
@@ -36,7 +37,7 @@
       ],
       "githubUrl": "https://github.com/Priyanka-Sachan/Mood-Board",
       "demoUrl": "",
-      "blogUrl": ""
+      "blogUrl": "https://console-logs.vercel.app/blog/mood-board"
     },
     {
       "id": 3,
@@ -51,7 +52,7 @@
       ],
       "githubUrl": "https://github.com/Priyanka-Sachan/NFT-unboxed-app",
       "demoUrl": "https://nft-unboxed-app.vercel.app/",
-      "blogUrl": ""
+      "blogUrl": "https://console-logs.vercel.app/blog/nft-unboxed"
     },
     {
       "id": 4,
@@ -65,7 +66,7 @@
       ],
       "githubUrl": "https://github.com/Priyanka-Sachan/PenCast",
       "demoUrl": "",
-      "blogUrl": ""
+      "blogUrl": "https://console-logs.vercel.app/blog/pencast"
     }
   ],
   "otherProjects": [
