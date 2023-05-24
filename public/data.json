@@ -1,6 +1,6 @@
 {
   "socialLinks": {
-    "email": "priyankasachanb9@gmail.com",
+    "email": "priyanka.sachan.in@gmail.com",
     "resume": "https://drive.google.com/file/d/1A7nNvFhLcZuD4m0f5zv0s4OVboG0YUtE/view?usp=sharing",
     "github": "https://github.com/Priyanka-Sachan/",
     "facebook": "",
@@ -8,7 +8,7 @@
     "instagram": "https://www.instagram.com/randomizer.in/",
     "codepen": "https://codepen.io/priyanka-sachan-in",
     "linkedin": "https://www.linkedin.com/in/priyanka-sachan-92a721194/",
-    "blog":"https://console-logs.vercel.app/"
+    "blog":"https://the-log-book.vercel.app/"
   },
   "featuredProjects": [
     {
@@ -23,7 +23,7 @@
       ],
       "githubUrl": "https://github.com/Priyanka-Sachan/Bookish",
       "demoUrl": "",
-      "blogUrl": "https://console-logs.vercel.app/blog/bookish"
+      "blogUrl": "https://the-log-book.vercel.app/posts/bookish"
     },
     {
       "id": 2,
@@ -37,7 +37,7 @@
       ],
       "githubUrl": "https://github.com/Priyanka-Sachan/Mood-Board",
       "demoUrl": "",
-      "blogUrl": "https://console-logs.vercel.app/blog/mood-board"
+      "blogUrl": "https://the-log-book.vercel.app/posts/mood-board"
     },
     {
       "id": 3,
@@ -52,7 +52,7 @@
       ],
       "githubUrl": "https://github.com/Priyanka-Sachan/NFT-unboxed-app",
       "demoUrl": "https://nft-unboxed-app.vercel.app/",
-      "blogUrl": "https://console-logs.vercel.app/blog/nft-unboxed"
+      "blogUrl": "https://the-log-book.vercel.app/posts/nft-unboxed"
     },
     {
       "id": 4,
@@ -66,7 +66,7 @@
       ],
       "githubUrl": "https://github.com/Priyanka-Sachan/PenCast",
       "demoUrl": "",
-      "blogUrl": "https://console-logs.vercel.app/blog/pencast"
+      "blogUrl": "https://the-log-book.vercel.app/posts/pencast"
     }
   ],
   "otherProjects": [
